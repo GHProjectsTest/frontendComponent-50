@@ -40,13 +40,13 @@ var init = function() {
 
   };
 
-  client = new Las2peerWidgetLibrary("$Microservice_Url$/music", iwcCallback, '*');
+  client = new Las2peerWidgetLibrary("$Microservice_Url$/musicfdsfds", iwcCallback, '*');
 
   $('#p').on('click', function() {
     //start parameter initiation
 
     //end parameter initiation
-    loadSongs();
+    fdsfdsloadSongs();
   })
 
 
@@ -57,14 +57,14 @@ var initClient = function(y) {
   console.log("Client initialized");
 };
 
-// loadSongs
-var loadSongs = function(){
+// fdsfdsloadSongs
+var fdsfdsloadSongs = function(){
 
 //start variable declaration
 
 //end variable declaration
 
-  client.sendRequest("GET", "songs", "", "", {}, false,
+  client.sendRequest("GET", "sodfsdfdsngs", "", "", {}, false,
   function(data, type) {
     console.log(data);
   },
